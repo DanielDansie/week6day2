@@ -1,0 +1,17 @@
+#squares {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 370px;
+    margin: 50px auto;
+}
+
+#squares div{
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    background-color: black;
+}
+
+#squares .darkMode {
+    background-color: gray;
+}
